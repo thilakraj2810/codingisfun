@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RefreshRestFulServicesApplication {
 
 	public static void main(String[] args) {
+		System.out.println("This is a check for git push");
 		SpringApplication.run(RefreshRestFulServicesApplication.class, args);
 	}
 
